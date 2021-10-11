@@ -1,0 +1,81 @@
+$button-hover-color:rgb(59, 59, 109);
+
+header {
+    padding: $padding-20*2 $padding-20*2.5;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $white-color;
+
+
+
+    .navbar-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+
+        ul {
+            margin-bottom: 0;
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+
+            a {
+                margin-right: $base *9;
+                text-decoration: none;
+                color: $secondary-color;
+
+                &:hover {
+                    color: $button-hover-color;
+                }
+            }
+
+        }
+
+        button {
+            background-color: $primary-bg-color;
+            color: $white-color;
+            border: none;
+            padding: $base*3 $base*5;
+            font-family: $primary-font-family;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $button-hover-color;
+            }
+        }
+
+        .bar-icon {
+            display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    header {
+        .nav-list {
+
+            li,
+            button {
+                display: none;
+            }
+
+            .bar-icon {
+                display: block;
+            }
+        }
+    }
+}
+
+// @media screen and (max-width:567px) {
+//     header {
+//         padding: 32px 20px;
+//     }
+// }

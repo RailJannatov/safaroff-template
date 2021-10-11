@@ -1,0 +1,82 @@
+footer {
+    border-top: 1px solid black;
+    padding: $padding-20*3 0;
+
+    .padding-custom {
+        padding-left: $padding-20*5;
+        padding-right: $padding-20*7;
+    }
+}
+
+.footer-contact {
+    margin-bottom: $margin-20*4;
+
+    h5 {
+        color: $primary-bg-color;
+    }
+}
+
+.title-project {
+    h5 {
+        font-size: $base*4;
+        color: $primary-bg-color;
+    }
+
+    h2 {
+        font-size: $base*12;
+    }
+}
+
+.follov-us {
+    i {
+        margin-right: $base*4;
+        color: $white-color;
+        background-color: black;
+        font-size: $base*5;
+
+        &:hover {
+            color: $primary-bg-color;
+        }
+    }
+
+    h5 {
+        color: $primary-bg-color;
+    }
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: $base*9;
+
+    .text-name {
+        border-bottom: 1px solid black;
+        width: 45%;
+        margin-bottom: $base*8;
+        margin-right: $base*8;
+
+    }
+}
+
+.i-am-robot {
+    background-color: gray;
+    border: 1px solid black;
+    width: 200px;
+
+    .access {
+        border: 1px solid gray;
+        background-color: #fff;
+        width: 32px;
+        height: 34px;
+        display: inline-block;
+    }
+}
+
+.labels {
+    label {
+        background-color: $secondary-bg-color;
+        padding: $base $base*2.5;
+        cursor: pointer;
+        margin: $base*2;
+    }
+}

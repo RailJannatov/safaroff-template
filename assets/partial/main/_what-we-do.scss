@@ -1,0 +1,51 @@
+$what-we-do-bg-color:#f9f9f9;
+
+#what-we-do {
+    padding: $padding-20*3 $padding-20*8;
+    background-color: $what-we-do-bg-color;
+
+    .margin-top {
+        margin-top: $base*17;
+    }
+
+    h2 {
+        font-size: $base*12;
+    }
+
+    .what-we-do-title {
+        margin-bottom: $base*17;
+    }
+
+    .works {
+        margin-bottom: $margin-20*3;
+
+        p {
+            font-size: 14px;
+        }
+
+        h5 {
+            font-size: 22px;
+            padding-right: 11px;
+            margin-bottom: revert;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    #what-we-do {
+        padding: 60px 0;
+
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    #what-we-do {
+        padding: 60px 0;
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+}

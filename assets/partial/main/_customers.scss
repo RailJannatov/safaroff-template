@@ -1,0 +1,63 @@
+#customers {
+    padding: 130px 158px;
+
+    img {
+        margin-bottom: 33px;
+        margin-right: 16px;
+        filter: grayscale(1);
+
+        &:hover {
+            filter: unset;
+        }
+    }
+
+    h2 {
+        font-size: 48px;
+        margin-bottom: 21px;
+    }
+
+    p {
+        padding-right: 189px;
+    }
+
+    .nav-buttons {
+        margin-bottom: 37px;
+    }
+}
+
+.beynelxalq-button {
+    background-color: $primary-bg-color;
+    padding: 4px 10px;
+    font-size: 14px;
+    color: $white-color;
+    margin-right: 15px;
+}
+
+.dovlet-button,
+.corporative-button {
+    background-color: $secondary-bg-color;
+    padding: 4px 10px;
+    font-size: 14px;
+    margin-right: 15px;
+
+    &:hover {
+        background-color: $primary-bg-color;
+        color: $white-color;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #customers {
+        padding: 0;
+        padding-top: 40px;
+
+        p {
+            padding-right: 0;
+        }
+
+        img {
+            filter: unset;
+        }
+    }
+
+}
